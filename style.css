@@ -1,0 +1,49 @@
+body {
+  padding-left: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(14, 66, 70);
+}
+
+h1 {
+  padding-top: 10px;
+}
+h2 {
+  margin: auto;
+  padding: auto;
+}
+hr {
+  color: white;
+  height: 5px;
+}
+img {
+  width: 250px;
+  margin: 10px;
+  height: 150px;
+}
+a {
+  color: royalblue;
+}
+thead {
+  font-weight: bold;
+}
+span {
+  background-color: white;
+  color: red;
+  font-weight: bold;
+  padding: 10px;
+}
+.one {
+  background-color: #e3e3e3;
+  padding: 5px;
+  margin: 10px;
+  border: solid 1px red;
+}
+.two {
+  border: dotted 2px gray;
+  background-color: #ddffff;
+  margin-left: 10px;
+}
+aside {
+  display: flex;
+  float: right;
+}

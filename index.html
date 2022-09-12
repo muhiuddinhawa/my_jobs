@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My_Test_Project</title>
+  </head>
+
+  <body>
+    <div class="first">
+    <h1>Muhiuddin Hawa</h1>
+    <h2>Muhiuddin Hawa</h2>
+    <hr />
+    <h3>Muhiuddin Hawa</h3>
+    <h4>Muhiuddin Hawa</h4>
+    <hr />
+    <h5>Muhiuddin Hawa</h5>
+    <h6>Muhiuddin Hawa</h6>
+    </div>
+    <hr />
+    <!-- 
+    formatted tags :
+    b >= The HTML <b> element is a physical tag which display text in bold font, without any logical importance.
+    strong >= The HTML <strong> tag is a logical tag, which displays the content in bold font and informs the browser about its logical importance.
+    i >= The HTML <i> element is physical element, which display the enclosed content in italic font, without any added importance.
+    em >= The HTML <em> tag is a logical element, which will display the enclosed content in italic font, with added semantics importance.
+    mark >= If you want to mark or highlight a text, you should write the content within <mark>.........</mark>
+    u >= If you write anything within <u>.........</u> element, is shown in underlined text.
+    small >= If you want to put your font size smaller than the rest of the text then put the content within <small>.........</small>tag. It reduces one font size than the previous one.
+    big >= If you want to put your font size larger than the rest of the text then put the content within <big>.........</big>. It increase one font size larger than the previous one.
+    del >= Anything that puts within <del>..........</del> is displayed as deleted text.
+    ins >= Anything that puts within <ins>..........</ins> is displayed as inserted text
+    sub >= If you put the content within <sub>..............</sub> element, is shown in subscript ; means it is displayed half a character's height below the other characters.
+    sup >= If you put the content within <sup>..............</sup> element, is shown in superscript; means it is displayed half a character's height above the other characters.
+    -->
+    <p>this <b>Bold text</b> paragraph</p>
+    <!-- paragraph is block element-->
+    <!--
+    The HTML anchor tag defines a hyperlink that links one page to another page. It can create hyperlink to other web page as well as files, location, or any URL.
+    The "href" attribute is the most important attribute of the HTML a tag. and which links to destination page or URL.
+-->
+    <a href="https://www.google.com" target="_blank" title="Go to Google"
+      >Google</a
+    >
+    <a
+      href="mailto:muhihawa92.mh@gmail.com"
+      target="_blank"
+      title="Send Email To Page Owner"
+      >Contact Me</a
+    >
+    <hr />
+    <img
+      src="C:\Users\ACAD CENTER\Pictures\Saved Pictures\building (1).png"
+      alt=""
+    />
+    <img
+      src="C:\Users\ACAD CENTER\Pictures\Saved Pictures\building.png"
+      alt=""
+    />
+    <hr />
+    <ul>
+      <!-- Ul >= unorder list-->
+      <li>Html</li>
+      <li>Css3</li>
+      <li>
+        Javascript
+        <ul>
+          <li>Angular</li>
+          <li>React</li>
+          <li>Nodejs</li>
+        </ul>
+      </li>
+    </ul>
+    <hr />
+    <ol type="A" reversed>
+      <!--OL >= Order List that begin with order numbers or charcter-->
+      <li>Name</li>
+      <li>Address</li>
+      <li>Age</li>
+    </ol>
+    <hr />
+    <!--
+    HTML Description List or Definition List displays elements in definition form like in dictionary. The <dl>, <dt> and <dd> tags are used to define description list.
+    <dl> tag defines the description list.
+    <dt> tag defines data term.
+    <dd> tag defines data definition (description).
+        
+    -->
+    <dl>
+      <dt>Html</dt>
+      <dd>First Web Language you must learn</dd>
+      <dd>This language for web page structure</dd>
+      <dt>Css3</dt>
+      <dd>this language for Visualize your page</dd>
+      <dd>without css your pade show like Skeleton</dd>
+    </dl>
+    <hr />
+    <!--
+    HTML table tag is used to display data in tabular form (row * column). There can be many columns in a row.
+
+    We can create a table to display data in tabular form, using <table> element, with the help of <tr> , <td>, and <th> elements.
+
+    In Each table, table row is defined by <tr> tag, table header is defined by <th>, and table data is defined by <td> tags.
+
+    HTML tables are used to manage the layout of the page e.g. header section, navigation bar, body content, footer section etc.
+    But it is recommended to use div tag over table to manage the layout of the page .
+    -->
+    <table border="2px">
+      <caption>
+        Students_Marks
+      </caption>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Mark</th>
+      </tr>
+      <tr>
+        <td>mahamad</td>
+        <td>Ahmad</td>
+        <td>60</td>
+      </tr>
+      <tr>
+        <td>mahamad</td>
+        <td>Ahmad</td>
+        <td>60</td>
+      </tr>
+      <tr>
+        <td>mahamad</td>
+        <td>Ahmad</td>
+        <td>60</td>
+      </tr>
+      <tr>
+        <td colspan="2">Total</td>
+        <td>3</td>
+      </tr>
+    </table>
+    <hr />
+    <table border="2px" cellpadding="5px">
+      <thead>
+        <tr>
+          <td>First</td>
+          <td>Last</td>
+          <td>Mark</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ahamd</td>
+          <td>Saad</td>
+          <td>65</td>
+        </tr>
+        <tr>
+          <td>Ahamd</td>
+          <td>Saad</td>
+          <td>65</td>
+        </tr>
+        <tr>
+          <td>Ahamd</td>
+          <td>Saad</td>
+          <td>65</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <!--
+      HTML <span> tag is used as a generic container of inline elements. 
+      It is used for styling purpose to the grouped inline elements (using class and id attribute or inline style).
+      The <span> tag does not have any default meaning or rendering.
+
+      The <span> tag can be useful for the following task:
+      To change the language of a part of the text.
+      To change the color, font, background of a part of text using CSS
+      To apply the scripts to the particular part of the text.
+    -->
+    <p>this paragraph contain span element <span>tihs is span</span></p>
+    <hr />
+    <!--
+      HTML Div Tag
+      The HTML <div> tag is used to group the large section of HTML elements together.
+
+      We know that every tag has a specific purpose e.g. p tag is used to specify paragraph, 
+      <h1> to <h6> tag are used to specify headings but the <div> tag is just like a container unit which is used to encapsulate other page elements and divides the HTML documents into sections.
+
+      The div tag is generally used by web developers to group HTML elements together and apply CSS styles to many elements at once. 
+      For example: If you wrap a set of paragraph elements into a div element so you can take the advantage of CSS styles and apply font style to all paragraphs at once instead of coding the same style for each paragraph element.
+    -->
+    <div class="one">
+      <p>First div</p>
+    </div>
+    <div class="two">
+      <p>Second div</p>
+      <!--
+        HTML Entities
+        HTML character entities are used as a replacement of reserved characters in HTML. 
+        You can also replace characters that are not present on your keyboard by entities.
+      -->
+      <p>Entities example &lt;p&gt;</p>
+    </div>
+    <hr />
+    <aside>
+      <a href="google.com">google</a>
+      <a href="facebook.com">facebook</a>
+      <a href="youtube.com">youtube</a>
+    </aside>
+  </body>
+</html>
